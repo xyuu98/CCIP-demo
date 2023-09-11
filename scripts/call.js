@@ -18,6 +18,7 @@ async function main() {
         receiver
     )
     await transactionResponse.wait()
+    console.log(`Got transactionResponse at ${transactionResponse.address}`)
     console.log("Sent!")
 }
 

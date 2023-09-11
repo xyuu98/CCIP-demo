@@ -60,7 +60,7 @@ module.exports = {
         coinmarkertcap: COINMARKETCAP_API_KEY,
     },
     etherscan: {
-        apiKey: ETHERSCAN_API_KEY,
+        apiKey: POLYGONSCAN_API_KEY,
         customChains: [
             {
                 network: "goerli",
@@ -78,16 +78,11 @@ module.exports = {
                     browserURL: "https://sepolia.etherscan.io",
                 },
             },
-        ],
-    },
-    polygonscan: {
-        apiKey: POLYGONSCAN_API_KEY,
-        customChains: [
             {
                 network: "mumbai",
                 chainId: 80001,
                 urls: {
-                    apiURL: "http://api-testnet.polygonscan.com/api",
+                    apiURL: "https://api-testnet.polygonscan.com/api",
                     browserURL: "https://mumbai.polygonscan.com",
                 },
             },
