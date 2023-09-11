@@ -1,0 +1,15 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+.solhint.json
+.solhintignore
+transactionReceipt
+
+
+#Hardhat files
+cache
+artifacts
+deployments
+gas-report.txt
